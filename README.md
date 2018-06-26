@@ -23,4 +23,6 @@ In this lab, you would need to build the following pages:
  Your task is to use [omdb api](http://www.omdbapi.com/) to search for a movie.
  
  Your app should look like something similar to this:
- ![alt text](http://url/to/img.png)
+   - [Home Page](https://github.com/ahmedSDev/movie-app-lab/blob/master/home_page.PNG)
+   - [Movie Page](https://github.com/ahmedSDev/movie-app-lab/blob/master/movie_page.PNG)
+   - [Movie search result](https://github.com/ahmedSDev/movie-app-lab/blob/master/movie_page_search.PNG)
