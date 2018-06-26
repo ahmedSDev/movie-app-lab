@@ -26,3 +26,5 @@ In this lab, you would need to build the following pages:
    - [Home Page](https://github.com/ahmedSDev/movie-app-lab/blob/master/home_page.PNG)
    - [Movie Page](https://github.com/ahmedSDev/movie-app-lab/blob/master/movie_page.PNG)
    - [Movie search result](https://github.com/ahmedSDev/movie-app-lab/blob/master/movie_page_search.PNG)
+   
+ You will only need to modify the `Movie` component for this lab
