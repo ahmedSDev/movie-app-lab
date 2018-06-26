@@ -13,12 +13,23 @@ class Movie extends Component {
 
  handleClick = (e) => {
   e.preventDefault();
-  // Your code here
+  let self = this;
+  axios.get(`http://www.omdbapi.com/?t=${this.state.title}&apikey=c78611b9`)
+   .then(function (response) {
+    self.setState({
+     data: response.data
+    })
+   })
+   .catch(function (error) {
+    console.log(error);
+   });
  }
 
  handleTextInput = (e) => {
   e.preventDefault();
-  // Your code here
+  this.setState({
+   title: e.target.value
+  })
  }
 
  render() {
@@ -39,7 +50,10 @@ class Movie extends Component {
     {
      this.state.data && (
       <div>
-       // Your code here
+       <h3>Name: {this.state.data.Title}</h3>
+       <p>Year: {this.state.data.Year}</p>
+       <p>Genre:{this.state.data.Genre}</p>
+       <p>Director:{this.state.data.Director}</p>
       </div>
      )}
    </div>
